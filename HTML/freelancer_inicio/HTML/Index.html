@@ -117,42 +117,45 @@
      sit harum impedit vero consequuntur dolore eos placeat, dolor voluptas?</P>
    </Section>
 </div> <!--.Servicios cierre-->
-    </Main>
+    
 
     <Section>
         <H2>Contacto</H2>
 
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Contactános llenando todos los campos</legend>
 
-                <div>
+                <div class="contenedor-campos">
+                 <div class="campo">   
                     <label>Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">    
+                    <input class="input-text" type="text" placeholder="Tu Nombre">    
                 </div>
                 
-                <div>
+                <div class="campo">
                     <label>Telefono</label>
-                    <input type="tel" placeholder="Tu Telefono">
+                    <input class="input-text" type="tel" placeholder="Tu Telefono">
                 </div>
                
-                <div>
+                <div class="campo">
                     <label>Correo</label>
-                    <input type="email" placeholder="Mail">
+                    <input class="input-text" type="email" placeholder="Mail">
                 </div>
                 
-                <div>
+                <div class="campo">
                     <label>Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
                 </div>
+                </div> <!--.contenedor campos-->
                 
-                <div>
-                <input type="submit" value="Enviar">
+                <div class="alinear-derecha flex">
+                <input class="boton w-sm-100" type="submit" value="Enviar">
                 </div>
 
             </fieldset>
         </form>
     </Section>
+</Main>
     
     <Footer>
         <P>Todos los derechos Reservados</P>
